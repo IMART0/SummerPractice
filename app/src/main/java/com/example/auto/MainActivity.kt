@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun race(lap: ArrayList<Transport>) {
         if (lap.size == 2) {
-            println("Гонка между ${lap[0].modelName} и ${lap[0].modelName}, " +
+            println("Гонка между ${lap[0].modelName} и ${lap[1].modelName}, " +
                     "Победитель ${faster(lap[0], lap[1]).modelName}")
         } else {
             val newLap = ArrayList<Transport>()
