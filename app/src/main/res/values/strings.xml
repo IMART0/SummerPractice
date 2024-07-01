@@ -7,6 +7,6 @@
     <string name="Message">Сообщение</string>
     <string name="message">Message</string>
     <string name="app_name">My App</string>
-    <string name="sendMessage">Отправить сообщение</string>
+    <string name="sendMessage">Отправить</string>
     <string name="Answer">Ответ</string>
 </resources>
