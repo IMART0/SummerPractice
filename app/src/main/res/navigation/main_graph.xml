@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_friendsFragment2_to_groupsFragment2"
             app:destination="@id/groupsFragment2" />
+        <action
+            android:id="@+id/action_friendsFragment2_to_informationFragment"
+            app:destination="@id/informationFragment" />
     </fragment>
     <fragment
         android:id="@+id/groupsFragment2"
@@ -62,4 +65,12 @@
         android:name="com.example.auto.AnswerFragment"
         android:label="fragment_answer"
         tools:layout="@layout/fragment_answer" />
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.example.auto.InformationFragment"
+        android:label="InformationFragment" >
+        <action
+            android:id="@+id/action_informationFragment_to_friendsFragment2"
+            app:destination="@id/friendsFragment2" />
+    </fragment>
 </navigation>
